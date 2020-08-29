@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboardFragment"
+    android:background="#E9EAE9">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FDFCFC"
+        android:id="@+id/linea1">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dashboard"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+<RelativeLayout
+android:layout_below="@+id/linea1"
+android:layout_marginTop="10dp"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="#FDFCFC"
+android:id="@+id/linea2">
+
+<ImageView
+    android:layout_marginTop="10dp"
+    android:layout_below="@+id/name"
+    android:layout_width="wrap_content"
+    android:layout_height="200dp"
+    android:src="@drawable/img"
+    android:layout_centerInParent="true"
+    android:layout_gravity="right" />
+
+<TextView
+    android:layout_marginTop="20dp"
+    android:id="@+id/name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:paddingLeft="30dp"
+    android:text="Your Attendance This Semester"
+    android:textColor="#000000"
+    android:textSize="16sp" />
+
+
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_below="@+id/linea2"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FDFCFC">
+
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:text="Today's attendance"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+
+    </RelativeLayout>
+<RelativeLayout
+android:layout_below="@+id/linea2"
+android:layout_marginTop="10dp"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="#FDFCFC"
+    android:id="@+id/linea3">
+
+
+
+<TextView
+    android:layout_marginTop="20dp"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="30dp"
+    android:text="Today's attendance"
+    android:textColor="#000000"
+    android:textSize="16sp" />
+
+
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_below="@+id/linea3"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FDFCFC"
+        android:id="@+id/linea4">
+
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:text="Today's Learning"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_below="@+id/linea4"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FDFCFC"
+        >
+
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:text="Attendance Details"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

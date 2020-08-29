@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment"
+    android:background="#E9EAE9">
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FDFCFC"
+    android:id="@+id/linear1">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+
+    <RelativeLayout
+        android:layout_below="@+id/linear1"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FDFCFC"
+        android:id="@+id/linear2">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher_round"
+            android:layout_gravity="right" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:paddingLeft="30dp"
+            android:text="ABHISHEK SINGH"
+            android:textColor="#000000"
+            android:textSize="27sp" />
+        <TextView
+            android:layout_below="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:paddingLeft="30dp"
+            android:text="1923CS1175"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="#FDFCFC"
+        android:layout_below="@+id/linear2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BHAGAT CHAURAHA, TARAMANDAL ,GORAKHPUR"
+            android:textColor="#000000"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            android:id="@+id/addresstext"/>
+        <TextView
+            android:layout_below="@+id/addresstext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textColor="#898A89"
+            android:paddingLeft="10dp"
+            android:id="@+id/address"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8957996436"
+            android:textColor="#000000"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            android:id="@+id/mobilenoi"/>
+        <TextView
+            android:layout_below="@+id/mobilenoi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mobile No"
+            android:textColor="#898A89"
+            android:paddingLeft="10dp"
+            android:id="@+id/mobileno"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/mobileno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MR. GORAKH SINGH"
+            android:textColor="#000000"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            android:id="@+id/fathernamei"/>
+        <TextView
+            android:layout_below="@+id/fathernamei"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Father Name"
+            android:textColor="#898A89"
+            android:paddingLeft="10dp"
+            android:id="@+id/fathername"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/fathername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MRS. SHASHIKALA SINGH"
+            android:textColor="#000000"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            android:id="@+id/mothernamei"/>
+        <TextView
+            android:layout_below="@+id/mothernamei"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mother Name"
+            android:textColor="#898A89"
+            android:paddingLeft="10dp"
+            android:id="@+id/mothername"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/mothername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HINDU"
+            android:textColor="#000000"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            android:id="@+id/castei"/>
+        <TextView
+
+            android:layout_below="@+id/castei"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Religion"
+            android:textColor="#898A89"
+            android:paddingLeft="10dp"
+            android:id="@+id/caste"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/caste"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MALE"
+            android:textColor="#000000"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            android:id="@+id/genderi"/>
+        <TextView
+            android:layout_below="@+id/genderi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:textColor="#898A89"
+            android:paddingLeft="10dp"
+            android:id="@+id/gender"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:layout_marginTop="20sp"
+            android:layout_below="@id/gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="24-04-2001"
+            android:textColor="#000000"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            android:id="@+id/dobi"/>
+        <TextView
+            android:layout_below="@+id/dobi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="D.O.B"
+            android:textColor="#898A89"
+            android:paddingLeft="10dp"
+            android:id="@+id/dob"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/dob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INDIAN"
+            android:textColor="#000000"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            android:id="@+id/nationalityi"/>
+        <TextView
+            android:layout_below="@+id/nationalityi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nationality"
+            android:textColor="#898A89"
+            android:paddingLeft="10dp"
+            android:id="@+id/nationality"
+            android:textSize="16sp"
+            />
+
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>

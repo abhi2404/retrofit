@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000">
+
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:hint="title"
+        android:inputType="text"
+        android:textColor="#F5F6F5"
+        android:textColorHint="#F5F6F5"/>
+    <EditText
+        android:paddingTop="30dp"
+        android:layout_below="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/body"
+        android:hint="enter notes..."
+        android:gravity="center"
+        android:inputType="text"
+        android:textColor="#F5F6F5"
+        android:textColorHint="#F5F6F5"/>
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/body"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="260dp"
+        android:background="@color/grey"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="Add" />
+</RelativeLayout>
